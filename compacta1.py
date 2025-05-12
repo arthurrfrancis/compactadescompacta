@@ -26,5 +26,3 @@ saida = 'compactado1.txt'
 
 compactar_arquivo_txt_rle(entrada, saida)
 print(f"Arquivo {entrada} foi compactado para {saida}.")
-
-

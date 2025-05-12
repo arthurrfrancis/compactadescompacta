@@ -19,7 +19,7 @@ def descompactar_arquivo_txt_rle(entrada, saida):
         f.write(descompactado)
 
 entrada = 'arquivo1.txt'  
-saida = 'compactado.txt'  
+saida = 'compactado1.txt'  
 
 saida_descompactado = 'descompactado.txt'
 descompactar_arquivo_txt_rle(saida, saida_descompactado)
