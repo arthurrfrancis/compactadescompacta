@@ -9,23 +9,20 @@ def compactar(texto):
             resultado += str(contador) + texto[i - 1]
             contador = 1
 
-    resultado += str(contador) + texto[-1]  # Último grupo
+    resultado += str(contador) + texto[-1]
     return resultado
 
 
-# Função para compactar o arquivo .txt
 def compactar_arquivo_txt_rle(entrada, saida):
     with open(entrada, 'r') as f:
-        texto = f.read()  # Lê todo o conteúdo do arquivo
-    compactado = compactar(texto)  # Compacta o conteúdo
+        texto = f.read()
+    compactado = compactar(texto) 
     with open(saida, 'w') as f:
-        f.write(compactado)  # Escreve o conteúdo compactado no novo arquivo
+        f.write(compactado) 
 
 
-
-# Teste de compactação
-entrada = 'arquivo1.txt'  # Arquivo de entrada
-saida = 'compactado1.txt'  # Arquivo de saída (compactado)
+entrada = 'arquivo1.txt'  
+saida = 'compactado1.txt' 
 
 compactar_arquivo_txt_rle(entrada, saida)
 print(f"Arquivo {entrada} foi compactado para {saida}.")
