@@ -25,7 +25,7 @@ def compactar_arquivo_txt_rle(entrada, saida):
 
 # Teste de compactação
 entrada = 'arquivo1.txt'  # Arquivo de entrada
-saida = 'compactado.txt'  # Arquivo de saída (compactado)
+saida = 'compactado1.txt'  # Arquivo de saída (compactado)
 
 compactar_arquivo_txt_rle(entrada, saida)
 print(f"Arquivo {entrada} foi compactado para {saida}.")
