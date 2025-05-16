@@ -21,6 +21,6 @@ def descompactar_arquivo_txt_rle(entrada, saida):
 entrada = 'arquivo1.txt'  
 saida = 'compactado1.txt'  
 
-saida_descompactado = 'descompactado.txt'
+saida_descompactado = 'descompactado1.txt'
 descompactar_arquivo_txt_rle(saida, saida_descompactado)
 print(f"Arquivo {saida} foi descompactado para {saida_descompactado}.")
